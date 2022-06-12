@@ -1,0 +1,60 @@
+.testimonios {  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2.5em 3.8em;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "t1 t2"
+    "t3 t4"
+    "t5 t6";
+}
+
+.t1 { 
+    grid-area: t1; 
+}
+
+.t2 { 
+    grid-area: t2; 
+}
+
+.t3 { 
+    grid-area: t3; 
+}
+
+.t4 { 
+    grid-area: t4; 
+}
+
+.t5 { 
+    grid-area: t5; 
+}
+
+.t6 { 
+    grid-area: t6; 
+}
+
+footer {
+    .footer-links {
+        display: grid; 
+        grid-template-columns: 200px 200px 200px 200px; 
+        grid-template-rows: 1fr; 
+        gap: 3em 3em; 
+        grid-template-areas: 
+        "f1 f2 f3 f4"; 
+    }
+    
+}
+
+.f1 { 
+    grid-area: f1;
+}
+.f2 { 
+    grid-area: f2; 
+}
+.f3 { 
+    grid-area: f3; 
+}
+.f4 { 
+    grid-area: f4; 
+}

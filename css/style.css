@@ -1,0 +1,236 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #161616;
+  display: flex;
+  flex-direction: column; }
+
+h1 {
+  color: #f8f8f8; }
+
+h2 {
+  color: #f8f8f8;
+  font-size: 5rem; }
+
+h3 {
+  color: #f8f8f8;
+  font-size: 1.5rem; }
+
+h4 {
+  color: #aeb3b8;
+  font-size: 1.6rem; }
+
+h5 {
+  color: #aeb3b8;
+  font-size: 1.1rem; }
+
+h6 {
+  color: #f8f8f8;
+  font-size: 1.2rem; }
+
+p {
+  color: #aeb3b8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.9rem;
+  font-size: 1.2rem; }
+
+b {
+  color: #7f6df2; }
+
+header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%; }
+  header .header-nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(22, 22, 22, 0.7);
+    width: 100%;
+    padding-right: 2vw;
+    padding-left: 4vw; }
+    header .header-nav .nav-logo {
+      display: flex; }
+      header .header-nav .nav-logo .obsidian-logo {
+        width: 42px;
+        height: 42px;
+        padding-top: 12px;
+        padding-bottom: 15px; }
+      header .header-nav .nav-logo .text-logo {
+        font-size: 24px;
+        color: #999999;
+        padding-top: 15px; }
+    header .header-nav .menu .menu-ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 1vw;
+      padding-top: 20px; }
+      header .header-nav .menu .menu-ul a {
+        text-decoration: none;
+        color: #999999;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    header .header-nav .menu-hamburguesa {
+      display: none; }
+      header .header-nav .menu-hamburguesa .menu-ul-2 {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 4px; }
+        header .header-nav .menu-hamburguesa .menu-ul-2 a {
+          text-decoration: none; }
+
+main .app-action {
+  background-color: #161616;
+  width: 100%;
+  height: 90vh; }
+  main .app-action .text-action {
+    padding-top: 25vh; }
+    main .app-action .text-action .h2-titulo {
+      padding-bottom: 1.3rem; }
+    main .app-action .text-action .p-titulo {
+      text-align: center;
+      padding-bottom: 1.5rem; }
+    main .app-action .text-action .boton-titulo {
+      padding-bottom: 1rem; }
+      main .app-action .text-action .boton-titulo a {
+        text-decoration: none; }
+        main .app-action .text-action .boton-titulo a button {
+          background-color: #483699;
+          border-color: #483699;
+          border-radius: 10px;
+          padding: 25px;
+          padding-left: 80px;
+          padding-right: 80px; }
+    main .app-action .text-action .buttons-mobile {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      gap: 10px;
+      margin: 20px; }
+      main .app-action .text-action .buttons-mobile a .imagen-botones {
+        width: auto;
+        height: 60px;
+        opacity: 60%; }
+
+main .screenshot-1 {
+  display: flex;
+  justify-content: center; }
+  main .screenshot-1 img {
+    width: 90vw; }
+
+main .testimonios {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 128px;
+  margin-bottom: 128px; }
+  main .testimonios .testimonios-box {
+    padding: 4px;
+    margin: 4px; }
+
+main .features {
+  margin-left: 15%;
+  margin-right: 15%; }
+  main .features .feature-1, main .features .feature-2, main .features .feature-3, main .features .feature-4 {
+    gap: 20px; }
+    main .features .feature-1 p, main .features .feature-2 p, main .features .feature-3 p, main .features .feature-4 p {
+      width: 70%; }
+    main .features .feature-1 .card-feature .title-card, main .features .feature-2 .card-feature .title-card, main .features .feature-3 .card-feature .title-card, main .features .feature-4 .card-feature .title-card {
+      display: flex;
+      align-items: center;
+      gap: 5px; }
+    main .features .feature-1 .card-feature p, main .features .feature-2 .card-feature p, main .features .feature-3 .card-feature p, main .features .feature-4 .card-feature p {
+      width: 90%;
+      padding: 20px; }
+    main .features .feature-1 .card-feature a, main .features .feature-2 .card-feature a, main .features .feature-3 .card-feature a, main .features .feature-4 .card-feature a {
+      padding-left: 560px; }
+
+.testimonios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2.5em 3.8em;
+  grid-auto-flow: row;
+  grid-template-areas: "t1 t2" "t3 t4" "t5 t6"; }
+
+.t1 {
+  grid-area: t1; }
+
+.t2 {
+  grid-area: t2; }
+
+.t3 {
+  grid-area: t3; }
+
+.t4 {
+  grid-area: t4; }
+
+.t5 {
+  grid-area: t5; }
+
+.t6 {
+  grid-area: t6; }
+
+footer .footer-links {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 1fr;
+  gap: 3em 3em;
+  grid-template-areas: "f1 f2 f3 f4"; }
+
+.f1 {
+  grid-area: f1; }
+
+.f2 {
+  grid-area: f2; }
+
+.f3 {
+  grid-area: f3; }
+
+.f4 {
+  grid-area: f4; }
+
+main .app-action .text-action, main .features, main .features .feature-1, main .features .feature-2, main .features .feature-3, main .features .feature-4, main .features .feature-1 .card-feature, main .features .feature-2 .card-feature, main .features .feature-3 .card-feature, main .features .feature-4 .card-feature, footer .footer-links .obsidian-footer, footer .footer-links .social-footer, footer .footer-links .spread-footer, footer .footer-links .legal-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+main .features .feature-1 .card-feature, main .features .feature-2 .card-feature, main .features .feature-3 .card-feature, main .features .feature-4 .card-feature {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 10px;
+  margin-left: 230px;
+  margin-right: 230px;
+  background-color: #1a1a1a; }
+
+main .app-action .text-action, main .features, main .features .feature-1, main .features .feature-2, main .features .feature-3, main .features .feature-4, main .features .feature-1 .card-feature, main .features .feature-2 .card-feature, main .features .feature-3 .card-feature, main .features .feature-4 .card-feature, footer .footer-links .obsidian-footer, footer .footer-links .social-footer, footer .footer-links .spread-footer, footer .footer-links .legal-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+main .features .feature-1 .card-feature, main .features .feature-2 .card-feature, main .features .feature-3 .card-feature, main .features .feature-4 .card-feature {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 10px;
+  margin-left: 230px;
+  margin-right: 230px;
+  background-color: #1a1a1a; }
+
+footer {
+  padding: 60px 20px 40px 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: static; }
+  footer .footer-links .obsidian-footer, footer .footer-links .social-footer, footer .footer-links .spread-footer, footer .footer-links .legal-footer {
+    align-items: baseline;
+    line-height: 1.9rem;
+    color: #aeb3b8; }

@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: rgba(22, 22, 22, 0.7) ;
+        width: 100%;
+        padding-right: 2vw;
+        padding-left: 4vw;
+        .nav-logo {
+            display: flex;
+            .obsidian-logo {
+                width: 42px;
+                height: 42px;
+                padding-top: 12px;
+                padding-bottom: 15px;
+            }
+            .text-logo {
+                font-size: 24px;
+                color: rgb(153, 153, 153);
+                padding-top: 15px;
+            }
+        }
+        .menu {
+            .menu-ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                gap: 1vw;
+                padding-top: 20px;
+                a {
+                    text-decoration: none;
+                    color: rgb(153, 153, 153);
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+            }
+        }
+        .menu-hamburguesa {
+            display: none;
+            .menu-ul-2 {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                gap: 4px;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
