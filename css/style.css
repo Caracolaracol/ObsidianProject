@@ -56,8 +56,7 @@ header {
     header .header-nav .nav-logo {
       display: flex; }
       header .header-nav .nav-logo .obsidian-logo {
-        width: 42px;
-        height: 42px;
+        height: 67px;
         padding-top: 12px;
         padding-bottom: 15px; }
       header .header-nav .nav-logo .text-logo {
@@ -133,10 +132,12 @@ main .testimonios {
     margin: 4px; }
 
 main .features {
-  margin-left: 15%;
-  margin-right: 15%; }
+  margin-left: 100px;
+  margin-right: 100px; }
+  main .features .learn-more {
+    margin: 14px; }
   main .features .feature-1, main .features .feature-2, main .features .feature-3, main .features .feature-4 {
-    gap: 20px; }
+    gap: 30px; }
     main .features .feature-1 p, main .features .feature-2 p, main .features .feature-3 p, main .features .feature-4 p {
       width: 70%; }
     main .features .feature-1 .card-feature .title-card, main .features .feature-2 .card-feature .title-card, main .features .feature-3 .card-feature .title-card, main .features .feature-4 .card-feature .title-card {
@@ -148,6 +149,12 @@ main .features {
       padding: 20px; }
     main .features .feature-1 .card-feature a, main .features .feature-2 .card-feature a, main .features .feature-3 .card-feature a, main .features .feature-4 .card-feature a {
       padding-left: 560px; }
+  main .features .feature-2 .learn-more {
+    margin: 14px; }
+  main .features .feature-3 .learn-more {
+    margin: 14px; }
+  main .features .feature-4 .learn-more {
+    margin: 14px; }
 
 .testimonios {
   display: grid;
@@ -204,8 +211,7 @@ main .features .feature-1 .card-feature, main .features .feature-2 .card-feature
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
   padding: 10px;
-  margin-left: 230px;
-  margin-right: 230px;
+  width: 700px;
   background-color: #1a1a1a; }
 
 main .app-action .text-action, main .features, main .features .feature-1, main .features .feature-2, main .features .feature-3, main .features .feature-4, main .features .feature-1 .card-feature, main .features .feature-2 .card-feature, main .features .feature-3 .card-feature, main .features .feature-4 .card-feature, footer .footer-links .obsidian-footer, footer .footer-links .social-footer, footer .footer-links .spread-footer, footer .footer-links .legal-footer {
@@ -218,8 +224,7 @@ main .features .feature-1 .card-feature, main .features .feature-2 .card-feature
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
   padding: 10px;
-  margin-left: 230px;
-  margin-right: 230px;
+  width: 700px;
   background-color: #1a1a1a; }
 
 footer {

@@ -63,11 +63,14 @@ main {
 
     .features {
         @extend %flexcolumn;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 100px;
+        margin-right: 100px;
+        .learn-more {
+            margin: 14px;
+        }
         .feature-1 {
             @extend %flexcolumn;
-            gap: 20px;
+            gap: 30px;
             p {
                 width: 70%;
             }
@@ -90,12 +93,21 @@ main {
         }
         .feature-2 {
             @extend .feature-1;
+            .learn-more {
+                margin: 14px;
+            }
         }
         .feature-3 {
             @extend .feature-1;
+            .learn-more {
+                margin: 14px;
+            }
         }
         .feature-4 {
             @extend .feature-1;
+            .learn-more {
+                margin: 14px;
+            }
         }
     }
 }
